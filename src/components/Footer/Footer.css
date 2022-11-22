@@ -1,0 +1,88 @@
+.footer{
+    margin: 0px 100px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.footer-left{
+    flex: 1;
+}
+.footer-left>img{
+    width: 8rem;
+}
+.footer-left>p{
+    width: 18rem;
+    font-weight: 300;
+    margin-right: -2rem;
+    color: rgb(5, 5, 66);
+}
+.footer-left>p:nth-child(3){
+    font-weight: 500;
+    color: rgb(5, 5, 66);
+}
+
+.footer-right{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.home{
+    color: rgb(5, 5, 66);
+    /* margin-right: 6rem; */
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.home>ul{
+    list-style: none;
+}
+.home>ul>li{
+    font-weight: 200;
+    cursor: pointer;
+}
+.home>ul>li:hover{
+    font-weight: 500;
+}
+
+.ourInfo{
+    color: rgb(5, 5, 66);
+    /* margin-right: 6rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    cursor: pointer;
+}
+.ourInfo>ul{
+    list-style: none;
+}
+.ourInfo>ul>li{
+    font-weight: 200;
+    cursor: pointer;
+}
+.ourInfo>ul>li:hover{
+    font-weight: 500;
+}
+
+.myAccount{
+    color: rgb(5, 5, 66);
+    /* margin-right: 6rem; */
+    width: 20rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.myAccount>ul{
+    list-style: none;
+}
+.myAccount>ul>li{
+    font-weight: 200;
+    cursor: pointer;
+}
+.myAccount>ul>li:hover{
+    font-weight: 500;
+}

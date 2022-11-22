@@ -1,0 +1,20 @@
+.brand-box{
+    margin: 100px 100px;
+    text-align: center;
+    color: rgb(5, 5, 66);
+}
+.brand-card{
+    display: flex;
+    width: 70rem;
+    padding-top: 30px;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.brand>img{
+    width: 12rem;
+}
+.brand>img:hover{
+    transform: scale(1.2);
+}

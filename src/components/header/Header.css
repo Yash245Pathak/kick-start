@@ -1,0 +1,42 @@
+.header{
+    margin: 35px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo>img{
+    width: 6rem;
+}
+
+.header-text>ul{
+    list-style: none;
+    gap: 2.5rem;
+    display: flex;
+}
+
+.header-text>ul>li{
+    font-weight: 400;
+    font-size: large;
+    color: rgb(5, 5, 66);
+}
+
+.header-text>ul>li:nth-child(1){
+    font-weight: 700;
+}
+
+.header-text>ul>li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header-items{
+    display: flex;
+    margin: 0 40px;
+    gap: 2rem;
+}
+
+.header-items>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}

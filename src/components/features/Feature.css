@@ -1,0 +1,20 @@
+.feature{
+    margin: 8rem 100px;
+    /* display: flex; */
+    width: auto;
+}
+.feature-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature-text>h1{
+    font-size: xx-large;
+    color: rgb(5, 5, 66);
+}
+.feature-text>span{
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
